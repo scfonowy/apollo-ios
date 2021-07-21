@@ -37,8 +37,8 @@ let package = Package(
       url: "https://github.com/stephencelis/SQLite.swift.git",
       .upToNextMinor(from: "0.12.2")),
     .package(
-      url: "https://github.com/daltoniam/Starscream",
-      .upToNextMinor(from: "4.0.4")),
+        url: "https://github.com/rizwan95/Starscream.git",
+          .branch("master")),
     .package(
       url: "https://github.com/stencilproject/Stencil.git",
       .upToNextMinor(from: "0.14.0")),
